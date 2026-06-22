@@ -1,0 +1,35 @@
+SEAGI — PUBLIC RESEARCH PREVIEW
+Copyright (c) 2026 Harald Rittersbacher. All rights reserved.
+
+This repository contains documentation, diagrams, and demonstration
+materials describing the SEAGI research program. It is published for
+informational and research-communication purposes only.
+
+GRANT
+-----
+You may view this material and quote brief excerpts for the purposes of
+commentary, news reporting, scholarship, or research, with attribution to
+"SEAGI — Harald Rittersbacher" and a link to this repository.
+
+RESERVATION OF RIGHTS
+---------------------
+All other rights are reserved. Without prior written permission of the
+copyright holder, you may NOT:
+  - use these materials, in whole or in substantial part, to build,
+    train, or operate a competing system;
+  - reproduce or redistribute the documents as your own;
+  - represent any derivative work as endorsed by or affiliated with SEAGI.
+
+NOT INCLUDED
+------------
+The SEAGI source code, the trained system and its accumulated state, and
+the specific calibrations and derivations are NOT part of this repository
+and are NOT licensed here. They are proprietary and confidential. No right
+or license to them is granted by the publication of this material.
+
+NO WARRANTY
+-----------
+These materials are provided "AS IS," without warranty of any kind. They
+describe early-stage research and may be incomplete or change without notice.
+
+For collaboration, partnership, or deeper access, contact the copyright holder.
