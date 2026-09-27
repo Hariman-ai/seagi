@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.json.gz
+*.json.gz.*
+*.bak*
+*.PRE_*
+*.log
+*.jsonl
+explorer_state.json
+state/

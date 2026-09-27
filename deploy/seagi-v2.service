@@ -1,0 +1,44 @@
+[Unit]
+Description=SEAGI V2 daemon (unified architecture, Phase S + Steps 1-4)
+After=network.target
+
+[Service]
+Type=simple
+User=seagi
+WorkingDirectory=/home/seagi/SEAGI-Core-v2
+ExecStart=/usr/bin/python3 -u /home/seagi/SEAGI-Core-v2/seagi_daemon.py --tick-hz 5 --save-interval 60 --save-ticks 300
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+KillSignal=SIGINT
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Environment=SEAGI_WORLD=arc
+
+[Unit]
+Wants=arc3-sidecar.service
+After=arc3-sidecar.service
+
+[Service]
+Environment=SEAGI_ARCROTATE=1
+
+[Service]
+Environment=SEAGI_MI_EARNED=1
+
+[Service]
+ExecStart=
+ExecStart=/usr/bin/python3 -u /home/seagi/SEAGI-Core-v2/seagi_daemon.py --tick-hz 5 --save-interval 600 --save-ticks 3000
+
+[Service]
+Environment=SEAGI_SURVIVAL=1
+
+[Service]
+TimeoutStopSec=180
+
+[Service]
+TimeoutStopSec=15min

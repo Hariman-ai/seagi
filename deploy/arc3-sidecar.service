@@ -1,0 +1,21 @@
+[Unit]
+Description=ARC-AGI-3 sidecar (owns the games; SEAGI talks to it over a unix socket)
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/root/arc3_venv/bin/python /root/arc_server.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/root/arc_server.log
+StandardError=append:/root/arc_server.log
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Environment=ARC_API_KEY=<your key>
+Environment=ARC_KEY=<your key>
+
+[Service]
+Environment=OPERATION_MODE=online

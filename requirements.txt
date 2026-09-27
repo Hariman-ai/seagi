@@ -1,0 +1,6 @@
+# the daemon
+numpy>=2.4
+pytest
+
+# the sidecar, in its OWN virtualenv (it pulls flask, matplotlib, PIL, requests):
+#   arc-agi==0.9.9
