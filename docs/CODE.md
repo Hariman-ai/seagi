@@ -1,4 +1,6 @@
-# SEAGI (v2)
+# SEAGI v2 — the code
+
+This is the technical companion to the front-page [README](../README.md).
 
 SEAGI is one mortal agent that plays [ARC-AGI-3](https://arcprize.org/arc-agi/3). He is not a model
 and not a search over a model. He is a long-lived process with a body: a neurochemistry that shifts
@@ -36,6 +38,7 @@ Two things hold for him and are not tuned:
 | `sidecar/arc_server.py` | The ARC sidecar. Owns the live games and the scorecard, speaks newline JSON over a Unix socket, renews a dead card, closes a card on command. |
 | `sidecar/official.py` | Reads the scorecard through the sidecar and logs ARC Prize's own score. |
 | `deploy/` | The two systemd units (keys removed), the list of gates that were on, the needrestart exclusion. |
+| `docs/ARCHITECTURE.md`, `docs/DEMOS.md` | The public preview: organ-level overview with diagrams, and unedited transcripts from the live system. |
 | `docs/SEAGI_documentation.md` | The architecture document written when the build was stopped in September 2026. |
 
 ## How the pieces run
@@ -82,9 +85,9 @@ That number is what one life per game buys him. It is not his ceiling and not a 
 
 ## Author
 
-H. Rittersbacher. Built with Claude (Anthropic) as the engineer; the doctrine, the decisions and
+Harald Rittersbacher. Built with Claude (Anthropic) as the engineer; the doctrine, the decisions and
 the money were the author's.
 
 ## License
 
-MIT, see `LICENSE`.
+See [LICENSE](../LICENSE): the code may be read, run and quoted with attribution; all other rights are reserved. The trained system is not included.

@@ -1,8 +1,8 @@
 SEAGI — PUBLIC RESEARCH PREVIEW
 Copyright (c) 2026 Harald Rittersbacher. All rights reserved.
 
-This repository contains documentation, diagrams, and demonstration
-materials describing the SEAGI research program. It is published for
+This repository contains documentation, diagrams, demonstration
+materials and, since 2026-09-27, the source code of the SEAGI research program. It is published for
 informational and research-communication purposes only.
 
 GRANT
@@ -20,12 +20,19 @@ copyright holder, you may NOT:
   - reproduce or redistribute the documents as your own;
   - represent any derivative work as endorsed by or affiliated with SEAGI.
 
+SOURCE CODE
+-----------
+Since 2026-09-27 this repository also contains the SEAGI v2 source code.
+It is published under the same terms as the rest of this material: you may
+read it, run it, and quote brief excerpts with attribution; all other rights
+are reserved as set out above.
+
 NOT INCLUDED
 ------------
-The SEAGI source code, the trained system and its accumulated state, and
-the specific calibrations and derivations are NOT part of this repository
-and are NOT licensed here. They are proprietary and confidential. No right
-or license to them is granted by the publication of this material.
+The trained system and its accumulated state, and the specific calibrations
+and derivations recorded in that state, are NOT part of this repository and
+are NOT licensed here. They are proprietary and confidential. No right or
+license to them is granted by the publication of this material.
 
 NO WARRANTY
 -----------

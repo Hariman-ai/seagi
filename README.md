@@ -4,7 +4,7 @@
 
 SEAGI (Self-Evolving Architecture for General Intelligence) is a research program exploring a different route to AGI: intelligence that arises because a system is *trying to persist and understand its world*, rather than because it predicts the next token. There is no large language model at its core. Its "mind" is a living graph of typed concepts whose links carry a chemical fingerprint, regulated by a homeostatic, mortality-driven economy.
 
-This repository is a **public research preview**: the vision, the architecture, and demonstrations of the live system. It is **not** the source code or the trained system (see *What's here / what's not*).
+This repository holds the **public research preview** — the vision, the architecture, demonstrations of the live system — and, since 2026-09-27, the **source code of SEAGI v2** as it runs. The trained system itself is not included (see *What's here / what's not*).
 
 ---
 
@@ -42,17 +42,21 @@ Every input is **valued by its lean** along a single self-bounding tension — t
 
 ## What's here / what's not
 
-**In this public repo:**
+**In this public repo (since 2026-09-27):**
 - the vision and the design doctrine,
 - an organ-level architecture overview with diagrams,
-- demonstrations of the running system.
+- demonstrations of the running system,
+- **the implementation source code of SEAGI v2** — the daemon, the brain, the ARC-AGI-3 world, the
+  allocation decision and the ARC sidecar, exactly as they run on the live server. See
+  **[docs/CODE.md](docs/CODE.md)** for the layout, how the pieces run, and what the scorecards show.
 
 **Deliberately not public** (proprietary):
-- the implementation source code,
-- the trained system itself (its accumulated knowledge and state),
-- the specific calibrations and derivations.
+- the trained system itself (its accumulated knowledge and state — there is one of him),
+- the specific calibrations and derivations recorded in that state.
 
-The idea is open; the execution is the work. Qualified collaborators and partners can discuss deeper access under NDA — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+The code is published so the system behind the ARC-AGI-3 scorecards can be read; see
+[LICENSE](LICENSE) for what you may do with it. Collaborators and partners can discuss deeper
+access — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ---
 

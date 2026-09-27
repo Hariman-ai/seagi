@@ -1,8 +1,9 @@
 # Collaborating with SEAGI
 
 SEAGI is an early-stage research program moving from solo work toward a funded
-team. This repository is a **public preview** — the vision, the architecture,
-and demonstrations. The implementation and the trained system are proprietary.
+team. This repository holds the **public preview** — the vision, the architecture,
+and demonstrations — and, since 2026-09-27, the **source code** of SEAGI v2. The trained
+system and its state remain proprietary.
 
 ## Who we're looking for
 
@@ -18,9 +19,9 @@ and demonstrations. The implementation and the trained system are proprietary.
 ## How to engage
 
 - **Questions, ideas, critique:** open an issue, or reach the contact below.
-- **Deeper technical access** (source, internals, the live system): available
-  to serious collaborators and partners under a mutual NDA. The public docs are
-  enough to evaluate the idea; the implementation is shared case by case.
+- **Deeper technical access** (the live system, its state, the operational
+  record): available to serious collaborators and partners under a mutual NDA.
+  The source is public; the trained system is shared case by case.
 - **Funding / partnership:** SEAGI seeks mission-aligned, non-arms-race capital
   and talent. The thesis is that minds and the right substrate — not a compute
   war — are the path to AGI.
